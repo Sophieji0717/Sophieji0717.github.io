@@ -1,21 +1,26 @@
 body{
     background-color: pink;
     font-family: Franklin Gothic Book;
+    background-image:url(F:\monash 2023 sem 1\Studio 2\coding\Sophieji0717.github.io\ar\background.jpg);
 }
 
 div.title{
     font-family: Cute Easter - Personal Use;
     font-size: 48px;
-    margin-bottom: auto;
+    margin-top:auto;
 }
 
+div.author{
+    align-items: center;
+}
 div.quote{
     font-family: Cute Easter - Personal Use;
     font-size: 48px;
-    margin-bottom: auto;
+    margin-top: auto;
 }
 
 div.text{
     font-family: Franklin Gothic Book;
     font-size: 14px;
+    margin-top: auto;
 }
