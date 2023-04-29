@@ -1,0 +1,21 @@
+body{
+    background-color: pink;
+    font-family: Franklin Gothic Book;
+}
+
+div.title{
+    font-family: Cute Easter - Personal Use;
+    font-size: 48px;
+    margin-bottom: auto;
+}
+
+div.quote{
+    font-family: Cute Easter - Personal Use;
+    font-size: 48px;
+    margin-bottom: auto;
+}
+
+div.text{
+    font-family: Franklin Gothic Book;
+    font-size: 14px;
+}
