@@ -1,7 +1,11 @@
 body{
     background-color: pink;
+    color:blue;
     font-family: Franklin Gothic Book;
     background-image:url(background.jpg);
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 div.title{
