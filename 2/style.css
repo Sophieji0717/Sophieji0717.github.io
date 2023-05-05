@@ -1,11 +1,39 @@
 body{
-    background-color: blueviolet;
+    background-color:plum;
     font-size: 36px;
     margin: 0px;
 }
 
-div.{
+div{
     box-sizing: border-box;
+}
+
+div.menu{
+    background-color: palevioletred;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    transition: 2s;
+}
+
+div.menu:hover{
+    background-color: rgb(153, 69, 232);
+    border-radius: 50px;
+    transition: 2s;
+}
+
+img{
+    width: 100%;
+}
+
+div.intro{
+    margin-top: 50px;
+}
+
+div.middle{
+    margin-top: 400px;
 }
 
 div.row{
@@ -14,7 +42,7 @@ div.row{
 }
 
 div.col{
-    outline: 2px solid cyan;
+    outline: 2px solid lemonchiffon;
     height: 1000px;
     padding: 20px;
 }
@@ -33,4 +61,20 @@ div.width50{
 
 div.width25{
     width: 25%;
+}
+
+div.Nudenails img{
+    animation: circle 20s infinite alternate linear;
+}
+
+@keyframes circle{
+    0%{
+        border-radius: 0%;
+        width: 0%;
+    }
+
+    100%{
+        border-radius: 100%;
+        width: 100%;
+    }
 }
