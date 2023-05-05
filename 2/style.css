@@ -1,0 +1,12 @@
+body{
+    background-color: blueviolet;
+    font-size: 36px;
+}
+
+div.row{
+
+}
+
+div.col{
+    outline: 2px solid cyan;
+}
