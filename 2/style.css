@@ -4,11 +4,13 @@ body{
 }
 
 div.row{
-
+    display:flex;
+    flex-wrap: wrap;
 }
 
 div.col{
     outline: 2px solid cyan;
+    height: 400px;
 }
 
 div.width66{
