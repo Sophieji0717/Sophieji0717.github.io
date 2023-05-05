@@ -10,3 +10,19 @@ div.row{
 div.col{
     outline: 2px solid cyan;
 }
+
+div.width66{
+    width: 66.666%;
+}
+
+div.width33{
+    width: 33.333%;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width25{
+    width: 25%;
+}
