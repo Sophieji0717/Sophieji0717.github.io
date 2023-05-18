@@ -1,0 +1,74 @@
+body{
+    background-color:plum;
+    font-size: 36px;
+    margin: 40px;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+div.menu{
+    background-color: palevioletred;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    text-align: center;
+    transition: 2s;
+}
+
+div.menu:hover{
+    background-color: rgb(153, 69, 232);
+    border-radius: 50px;
+    transition: 2s;
+}
+
+div.col{
+    outline: 2px solid rgb(254, 251, 226);
+    
+}
+
+div.col2{
+    outline: 2px solid rgb(254, 251, 226);
+   
+}
+
+div.col3{
+    outline: 2px solid rgb(254, 251, 226);
+   
+}
+
+div.row{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+div{
+    box-sizing: border-box;
+}
+
+div.width100{
+    width: 100%;
+}
+
+div.width50{
+    width: 50%;
+}
+
+div.width33{
+    width: 33.333%;
+}
+
+div.width25{
+    width: 25%;
+}
+
+div.width20{
+    width: 20%;
+}
+
+div.row {
+    margin-bottom: 100px;
+}
