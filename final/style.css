@@ -55,57 +55,65 @@ img {
     right:0;
     z-index: 10;
   }
-
-  div.hand {
-     background-image: url(hand.png);
-     height: 500px;
-     width: 100%;
-     background-repeat:no-repeat;
-     background-size:contain;
-     background-position: center;
+  
+  div.circle1{
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
   }
 
-  div.hand:hover {
-    background-image: url(blue\ hand.png);
+  div.circle1:hover {
+    background-color: aqua;
   }
 
-  div.hand1 {
-    background-image: url(hand.png);
-    height: 500px;
-    width: 100%;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
+  div.circle2{
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+  }
+  
+  div.circle2:hover {
+    background-color: aquamarine;
   }
 
-  div.hand1:hover {
-   background-image: url(green\ hand.png);
+  div.circle3{
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
   }
 
-  div.hand2 {
-    background-image: url(hand.png);
-    height: 500px;
-    width: 100%;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
+  div.circle3:hover {
+    background-color: pink;
   }
 
-  div.hand2:hover {
-   background-image: url(pink\ hand.png);
+  div.circle4{
+    background-color: wheat;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 20px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
   }
 
-  div.hand3 {
-    background-image: url(hand.png);
-    height: 500px;
-    width: 100%;
-    background-repeat:no-repeat;
-    background-size:contain;
-    background-position: center;
-  }
-
-  div.hand3:hover {
-   background-image: url(purple\ hand.png);
+  div.circle4:hover {
+    background-color: plum;
   }
 
   div.menu{
